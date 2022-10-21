@@ -42,6 +42,43 @@ img{
 .header__item + .header__item{
   margin-left: 33px;
 }
+.header__link{
+  transition-timing-function: ease-in-out;
+transition-duration: 0.5s;
+transition-property: all;
+display: block;
+
+}
+.header__link{
+  transition-timing-function: ease-in-out;
+transition-duration: 0.5s;
+transition-property: all;
+display: block;
+
+}
+
+.header__link:hover{
+  text-align: center;
+
+  border-radius: 8px;
+background-color: black;
+color: #fff;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 50px;
+}
+.header__link:hover{
+  text-align: center;
+
+  border-radius: 8px;
+background-color: black;
+color: #fff;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 50px;
+}
 a:hover{
   color: blue;
   background-color: crimson;
@@ -102,6 +139,7 @@ padding-top: 123px;
   margin: 0 auto;
 
 }
+
 .hero2__item{
   width: 255px;
 }
@@ -281,6 +319,15 @@ color: #333D4B;
 width: 285px;
 
 }
+.hero__btn{
+  transition-duration: 500ms;
+transition-property: all;
+}
+.hero__btn:hover{
+  padding-right: 100px;
+  background-color: blueviolet;
+}
+
 .work__img{
   width: 90px;
   height: 72px;
@@ -333,7 +380,25 @@ color: #83888F;
 .footer{
 margin-top: 800px;
 }
-.
+.footer__link{
+  transition-timing-function: ease-in-out;
+transition-duration: 0.5s;
+transition-property: all;
+display: block;
+
+}
+
+.footer__link:hover{
+  text-align: center;
+
+  border-radius: 8px;
+background-color:#fff;
+color:#000;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 50px;
+}
 .footer__logo-link{
   padding-left: 85px;
 }
